@@ -1,0 +1,12 @@
+
+let header = document.querySelector(`#header`); 
+let toogle = document.querySelector(`.toogle`);
+let enlace = document.querySelector(`nav ul`);
+
+toogle.onclick = ()=>{
+    header.classList.toggle("activo");
+};
+
+enlace.addEventListener( `click` , () =>{
+    header.classList.remove("activo");
+})
