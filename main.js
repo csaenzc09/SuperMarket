@@ -7,7 +7,7 @@ let enlace = document.querySelector(`nav ul`);
 
 
  titulo.textContent = "market";
- titulo.style.color = "teal"; 
+ titulo.style.color = "darkblue"; 
 
 
 toogle.addEventListener(`click` , ()=>{
